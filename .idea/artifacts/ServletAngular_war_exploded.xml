@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServletAngular:war exploded">
+    <output-path>$PROJECT_DIR$/target/ServletAngular</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServletAngular" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: com.oracle:ojdbc7:12.1.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-catalina:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jni:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-coyote:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:9.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jaspic-api:9.0.2" />
+          <element id="library" level="project" name="Maven: info.cukes:cucumber-java:1.2.5" />
+          <element id="library" level="project" name="Maven: info.cukes:cucumber-core:1.2.5" />
+          <element id="library" level="project" name="Maven: info.cukes:cucumber-html:0.2.3" />
+          <element id="library" level="project" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" />
+          <element id="library" level="project" name="Maven: info.cukes:gherkin:2.12.2" />
+          <element id="library" level="project" name="Maven: info.cukes:cucumber-testng:1.2.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ServletAngular/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ServletAngular/web/Web" />
+    </root>
+  </artifact>
+</component>
